@@ -13,7 +13,7 @@ class SharedPreferencesHelper {
     String fullname = _prefs.getString('fullname') ??
         'Adetokunbo Blessing Ibikemi'; // Default value if not found
     String username = _prefs.getString('username') ?? 'Adetokunbo Blessing';
-    String github = _prefs.getString('github') ?? 'https://github.com/ibikemi';
+    String github = _prefs.getString('github') ?? 'ibikemi';
     String email = _prefs.getString('email') ?? 'ibikemi2001@gmail.com';
     String about = _prefs.getString('about') ??
         'I am a software developer with hands-on experience in building and testing solutions. Possess experience with 3+ programming language and seeking for a role where I can grow and learn from experienced team members.';
